@@ -1,0 +1,532 @@
+/*Basic Stuff*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+.Responsive_image {
+  border-radius: 5px;
+  max-width: 23vw;
+  height: auto;
+  max-height: 49.2vh;
+  margin-top: 3%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+.font_Medium {
+  font-size: 4vh;
+}
+.font_Little {
+  font-size: 3vh;
+}
+
+.Line {
+  border-bottom-style: solid;
+  border-color: #5e92ad;
+  border-radius: 200px;
+}
+
+/*Title Part*/
+
+
+/*Menu Part*/
+.Menu_base {
+  height: auto;
+}
+.qtn {
+  width: 30%;
+}
+.Total {
+  width: 30%;
+  margin-left: 18.4%;
+}
+.Search_Input {
+  border-style: solid;
+  border-color: #5e92ad;
+  border-radius: 5px;
+  margin-left: 23%;
+  width: 50%;
+  height: auto;
+}
+.Search_Button {
+  color: #5e92ad;
+  border-color: #5e92ad;
+  background-color: #ffffff;
+  margin-left: 1%;
+  border-style: solid;
+  border-radius: 5px;
+  height: auto;
+  transition-property: color, background-color;
+  transition-duration: 0.2s;
+}
+.Search_Button:hover {
+  color: white;
+  border-color: #5e92ad;
+  background-color: #5e92ad;
+  margin-left: 1%;
+  border-style: solid;
+  border-radius: 5px;
+  height: 5vh;
+}
+.Buy {
+  margin-left: 40%;
+}
+.Account_Part {
+  margin-left: 12%;
+}
+
+/*Display For Phone*/
+@media only screen and (min-width: 0px) and (max-width: 785px) {
+  .Login_Part {
+    margin-left: 14vw;
+  }
+  .Page {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-left: 5%;
+    max-width: 79%;
+    text-align: center;
+  }
+  .Login_Part {
+    margin-left: 14vw;
+  }
+  .Responsive_pic {
+    max-width: 16vw;
+    max-height: 20vh;
+    border-radius: 5px;
+  }
+  .Item_Pic:hover .Text {
+    opacity: 1;
+    visibility: visible;
+  }
+  .Display {
+    border-style: solid;
+    border-color: #39a7b5;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 7.75%;
+    width: 85%;
+    height: auto;
+    text-align: center;
+  }
+
+  .Itens_Base_Search {
+    border-style: solid;
+    border-color: #39a7b5;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-left: 7.75%;
+    max-width: 85%;
+    text-align: center;
+  }
+
+  .Itens_Base_Search .Item_Pic {
+    position: relative;
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 5px;
+    margin-right: 1vw;
+    margin-left: 3vw;
+    max-width: 16vw;
+    max-height: 24vh;
+  }
+  .Itens_Base {
+    border-style: solid;
+    border-color: #39a7b5;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-left: 7.75%;
+    max-width: 85%;
+    text-align: center;
+  }
+
+  .Itens_Base .Item_Pic {
+    position: relative;
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 5px;
+    margin-right: 1vw;
+    margin-left: 3vw;
+    max-width: 16vw;
+    max-height: 24vh;
+  }
+  .Product {
+    border-style: solid;
+    border-color: #39a7b5;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    display: inline-block;
+    margin-right: 2%;
+    width: 61.5vw;
+  }
+  .Product .Product_Info {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 3vh;
+    text-align: left;
+  }
+  .Product .Product_Buy {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 3vh;
+    text-align: left;
+  }
+
+  .Footer {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #2494a2;
+    margin-top: 10%;
+    height: 24vh;
+  }
+}
+/*Display For Pc*/
+
+@media only screen and (min-width: 786px) {
+  .Login_Part {
+    margin-left: 5vw;
+  }
+  .Page {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-left: 11%;
+    text-align: center;
+  }
+
+  .Login_Part {
+    margin-left: 5vw;
+  }
+  .Responsive_pic {
+    max-width: 10vw;
+    max-height: 20vh;
+    border-radius: 5px;
+  }
+
+  .Item_Pic:hover .Text {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .Display {
+    float: left;
+    border-style: solid;
+    border-color: #39a7b5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 8px;
+    width: 25vw;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .Itens_Base_Search {
+    border-style: solid;
+    border-color: #39a7b5;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-left: 11%;
+    max-width: 79%;
+    text-align: center;
+  }
+  .Itens_Base_Search .Item_Pic {
+    position: relative;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    min-width: 13%;
+    max-width: 16%;
+  }
+  .Itens_Base {
+    float: right;
+    border-style: solid;
+    border-color: #39a7b5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: -1%;
+    max-width: 64%;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .Itens_Base .Item_Pic {
+    position: relative;
+    display: inline-table;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    max-width: 5vw;
+    z-index: 1;
+  }
+
+  .Product {
+    border-style: solid;
+    border-color: #39a7b5;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #39a7b5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 2%;
+    width: 47vw;
+  }
+  .Product .Product_Info {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 3vh;
+    text-align: left;
+  }
+  .Product .Product_Buy {
+    float: right;
+    margin-right: 1vw;
+    margin-bottom: 3vh;
+    text-align: left;
+  }
+
+  .Footer {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #2494a2;
+    margin-top: 20vh;
+    height: 30vh;
+  }
+}
+.PageButtons {
+  border-style: solid;
+  border-color: #39a7b5;
+  color: #f0fdff;
+  background-color: #39a7b5;
+  border-radius: 5px;
+  margin-left: 5px;
+  text-align: center;
+  transition-property: color, background-color;
+  transition-duration: 0.2s;
+}
+.PageButtons:hover {
+  border-color: #39a7b5;
+  color: #39a7b5;
+  background-color: #f0fdff;
+}
+
+.Text {
+  font-size: 1.2vh;
+  text-align: left;
+  visibility: hidden;
+  position: absolute;
+  padding: 10px;
+  color: white;
+  top: 40%;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.form {
+  top: 25vh;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+  width: 300px;
+}
+
+.title2 {
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title3 {
+  text-transform: capitalize;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  box-shadow: 0px 0px 4px 0px rgb(209, 196, 179);
+}
+
+#Login,
+#btnUp {
+  border-radius: 50px;
+  color: rgb(201, 233, 222);
+  font-family: 'Open Sans';
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+#Login:hover {
+  border: 2px solid white;
+  background-color: #304b78;
+}
+
+#btnUp:hover {
+  border: 2px solid white;
+  background-color: #304b78;
+}
+
+.icon-modify {
+  color: #7f8c8d;
+  padding: 0 5px;
+}
+
+.icon2 {
+  color: rgb(255, 35, 35);
+  font-size: 20px;
+  margin-top: -80px;
+  font-weight: bold;
+}
+
+.create {
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.img {
+  margin-top: -40px;
+  margin-left: -40px;
+  width: 400px;
+}
+
+.form2 {
+  top: 2vh;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+  width: 400px;
+}
+
+.obsPassword {
+  font-weight: bold;
+  font-size: 12px;
+  text-shadow: 0px 0px 1px black;
+  list-style-type: circle;
+}
+
+#Login {
+  border-radius: 5px;
+}
+
+.myFooter{
+    padding-top:32px;
+}
+
+.myFooter .container{
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Open Sans';
+    text-shadow: 0px 0px 1px rgb(35, 137, 221);
+}
+
+.myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+   color:rgb(20, 20, 22);
+}
+
+.myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.myFooter a{
+    color: #282b2d;
+    font-size: 18px;
+}
+
+.myFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+.myFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:rgb(183, 236, 236);
+    border-radius:20px;
+}
+
+.myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+.myFooter .fal{
+  color:yellow;
+}
+.myFooter .fa-facebook:hover{
+   color: #2b55ff;
+}
+
+.myFooter .fa-facebook:focus{
+    color: #2b55ff; 
+}
+
+.myFooter .fa-instagram:hover{
+    color:purple;
+}
+
+.myFooter .fa-instagram:focus{
+    color:purple;
+}
+.myFooter .fa-youtube:hover{
+    color:red;
+}
+
+.myFooter .fa-youtube:focus{
+    color:red;
+}
+
+.myFooter .fa-twitter:hover{
+    color: #00aced;
+
+}
+
+.myFooter .fa-twitter:focus{
+    color:#00aced;
+}
+
+.myFooter .fa-envelope:hover{
+    color: red;
+
+}
+
+.myFooter .fa-envelope:focus{
+    color:red;
+}
+
